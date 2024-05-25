@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import BodyWrapper from '@/components/Global/BodyWrapper'
 import Footer from '@/components/Global/Footer'
+import Navigation from '@/components/Global/Navigation'
 
 export const metadata: Metadata = {
   title: 'Project Prototypes',
@@ -16,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <BodyWrapper>
+        <Navigation />
         {children}
         <Footer />
       </BodyWrapper>

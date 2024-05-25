@@ -23,7 +23,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   return (
     <>
-      <LinkProvider type={Link}>
+      {/* <LinkProvider type={Link}>
         <Nav navType="primary">
           <Nav.Logo title="Events Calendar" link="/events" />
           <Nav.Primary>
@@ -32,7 +32,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </Nav.Aside>
           </Nav.Primary>
         </Nav>
-      </LinkProvider>
+      </LinkProvider> */}
       <Main>
         <Section hasProse>{children}</Section>
       </Main>
