@@ -33,45 +33,48 @@ export default function Home() {
             <PageHeaders as="h2" header="Projects" size="md" />
             <Column maxWidth="7xl" cols="3">
               <Card>
-                <Card.Header title="cutheme style" />
+                <Card.Header title="Events Calendar" />
                 <Card.Body>
                   <Card.Excerpt text="This prototype reflects a single event view in cutheme." />
                 </Card.Body>
                 <Card.Footer>
-                  <a
+                  <Link
                     className="cu-button cu-button--red cu-button--small"
-                    href="/events/single-cutheme"
+                    href="/events"
                   >
                     View Prototype
-                  </a>
+                  </Link>
                 </Card.Footer>
               </Card>
               <Card>
-                <Card.Header title="Banner with image" />
+                <Card.Header title="Forms" />
                 <Card.Body>
                   <Card.Excerpt text="This example uses the wide image component with an optional background image." />
                 </Card.Body>
                 <Card.Footer>
-                  <a
+                  <Link
                     className="cu-button cu-button--red cu-button--small"
                     href="/events/single-image"
                   >
                     View Prototype
-                  </a>
+                  </Link>
                 </Card.Footer>
               </Card>
               <Card>
-                <Card.Header title="Banner without an image" />
+                <Card.Header title="RDS Component Library" />
                 <Card.Body>
                   <Card.Excerpt text="When no banner image is set the components default light grey background is used." />
                 </Card.Body>
                 <Card.Footer>
-                  <a
+                  {/* //link opening in new tab  */}
+                  <Link
                     className="cu-button cu-button--red cu-button--small"
-                    href="/events/single-light"
+                    href="https://cuweb.github.io/rds/?path=/docs/get-started-introduction--docs"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     View Prototype
-                  </a>
+                  </Link>
                 </Card.Footer>
               </Card>
             </Column>
