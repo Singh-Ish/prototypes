@@ -21,6 +21,10 @@ const NavItems = [
     title: 'Events',
     submenu: [
       {
+        href: '/events',
+        title: 'Event Home',
+      },
+      {
         href: '/events/single-cutheme',
         title: 'Single Cutheme Style',
       },
@@ -34,7 +38,32 @@ const NavItems = [
       },
     ],
   },
-  { href: '/forms', title: 'Forms' },
+  {
+    href: '/forms',
+    title: 'Forms',
+    submenu: [
+      {
+        href: '/forms',
+        title: 'Forms Home',
+      },
+      {
+        href: '/forms/launchpage',
+        title: 'Launch Page',
+      },
+      {
+        href: '/forms/requisition/view/52082',
+        title: 'Single Page',
+      },
+      {
+        href: '/forms/requisition/new',
+        title: 'New Form',
+      },
+      {
+        href: '/forms/requisition/edit/10',
+        title: 'Edit Existing Form',
+      },
+    ],
+  },
   { href: '/about', title: 'About Me' },
 ]
 

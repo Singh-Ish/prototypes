@@ -6,7 +6,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Main>
-        <Section hasProse>{children}</Section>
+        <Section maxWidth="7xl" hasProse>
+          {children}
+        </Section>
       </Main>
     </>
   )
