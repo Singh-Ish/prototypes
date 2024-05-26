@@ -10,7 +10,7 @@ import {
 } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
-function classNames(...classes) {
+function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
@@ -35,6 +35,7 @@ const NavItems = [
     ],
   },
   { href: '/forms', title: 'Forms' },
+  { href: '/about', title: 'About Me' },
 ]
 
 export default function Navigation() {
